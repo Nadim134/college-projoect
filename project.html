@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delicious Bites Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fffaf0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #ff6347;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+    }
+
+    .menu {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      font-size: 32px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ff6347;
+      padding-bottom: 5px;
+    }
+
+    .menu-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .item {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .item:hover {
+      transform: scale(1.02);
+    }
+
+    .item h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #ff6347;
+    }
+
+    .item p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .item .price {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ff6347;
+      color: white;
+      margin-top: 50px;
+    }
+    /* .returnButton a{
+        background-color: #ff6347;
+        text-decoration: none;
+        padding:20px 20px;
+        margin-top:30px;
+        width:20%;
+        
+    } */
+    /* .returnButton a{
+        colour:white
+    } */
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Delicious Bites</h1>
+    <p>Your Favorite Food, Fresh & Hot!</p>
+  </header>
+
+  <div class="menu">
+
+    <h2 class="section-title">Starters</h2>
+    <div class="menu-items">
+      <div class="item">
+        <h3>Garlic Bread</h3>
+        <p>Toasted bread with garlic butter and herbs.</p>
+        <div class="price">$4.99</div>
+      </div>
+      <div class="item">
+        <h3>Tomato Soup</h3>
+        <p>Rich creamy tomato soup served with croutons.</p>
+        <div class="price">$5.99</div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Main Course</h2>
+    <div class="menu-items">
+      <div class="item">
+        <h3>Grilled Chicken</h3>
+        <p>Juicy chicken breast served with veggies and rice.</p>
+        <div class="price">$12.99</div>
+      </div>
+      <div class="item">
+        <h3>Veggie Pasta</h3>
+        <p>Penne pasta with seasonal vegetables in a creamy sauce.</p>
+        <div class="price">$10.99</div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Desserts</h2>
+    <div class="menu-items">
+      <div class="item">
+        <h3>Chocolate Cake</h3>
+        <p>Rich and moist chocolate cake with ganache topping.</p>
+        <div class="price">$6.49</div>
+      </div>
+      <div class="item">
+        <h3>Vanilla Ice Cream</h3>
+        <p>Classic vanilla ice cream with caramel drizzle.</p>
+        <div class="price">$4.49</div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Drinks</h2>
+    <div class="menu-items">
+      <div class="item">
+        <h3>Lemonade</h3>
+        <p>Freshly squeezed lemon juice with mint.</p>
+        <div class="price">$2.99</div>
+      </div>
+      <div class="item">
+        <h3>Cold Coffee</h3>
+        <p>Chilled coffee with cream and ice.</p>
+        <div class="price">$3.99</div>
+      </div>
+    </div>
+    <!-- <div class="returnButton">
+    <button><a href="landing.html">Landing Page</a></button>
+</div> -->
+
+  </div>
+
+  <footer>
+    &copy; 2025 Delicious Bites. All rights reserved.
+  </footer>
+
+</body>
+</html>
